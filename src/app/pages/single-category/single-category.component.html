@@ -1,1 +1,10 @@
-<p>single-category works!</p>
+<div class="title-warper py-5" style=" background: var(--primary-color);">
+   <h3>general knowledge</h3>
+   <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam, iure.</p>
+</div>
+<div class="card-warper">
+   @for (item of [1,1,1,1,11,1,1,1]; track $index) {
+   <app-post-card></app-post-card>
+   }
+
+</div>

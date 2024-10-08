@@ -1,0 +1,11 @@
+.container{
+   background: var(--primary-color);
+}
+input{
+   width: 450px;
+   margin: 8px;
+}
+input:focus{
+   border: 2px solid #2b59c6;
+   box-shadow: none;
+}

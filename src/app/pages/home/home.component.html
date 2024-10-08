@@ -1,1 +1,28 @@
-<p>home works!</p>
+<section class="featured-section">
+   <div class="container-fluid">
+      <div class="title-warper">
+         <h3>Featured Post</h3>
+         <p>Discover the latest insights and innovations</p>
+      </div>
+
+    <div class="card-warper">
+      @for (item of [1,2,3,4]; track $index) {
+      <app-post-card></app-post-card>
+      }
+    </div>
+   </div>
+</section>
+<section class="letest">
+   <div>
+      <div class="title-warper mt-5">
+         <h3>letest Post</h3>
+         <p>Discover the latest insights and innovations</p>
+      </div>
+      <div class="card-warper">
+         @for (item of [1,2,3,4,5,6,7,8]; track $index) {
+         <app-post-card></app-post-card>
+         }
+      </div>
+
+   </div>
+</section>
