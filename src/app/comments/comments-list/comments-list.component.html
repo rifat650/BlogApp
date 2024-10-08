@@ -1,1 +1,17 @@
-<p>comments-list works!</p>
+<div class="shadow-sm bg-body container">
+<h2>Comments(15,233)</h2>
+
+@for (item of [1,2,3]; track $index) {
+   <div class="single-comment bg-white shadow border border-2 border-dark rounded border-opacity-25 p-4 mt-4">
+      <p class="fs-4 my-0">John Doe</p>
+      <span class="tags">
+         <small class="bg-dark">Last Updated: sep 14 2024</small>
+      </span>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi illum tempora voluptatum ut? Et ipsum
+         recusandae voluptatem sit mollitia. Deleniti temporibus cupiditate laborum ducimus asperiores accusantium
+         consequuntur ut corrupti reprehenderit.</p>
+      <span class="text-info fw-semibold me-3 border border-1 border-info rounded px-3 py-1">Reply</span>
+      <span class="text-info fw-semibold  border border-1 border-info rounded px-3 py-1">View Reply</span>
+   </div>
+}
+</div>
