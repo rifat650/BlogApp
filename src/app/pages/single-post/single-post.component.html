@@ -1,1 +1,41 @@
-<p>single-post works!</p>
+<div class="d-flex">
+   <div class="main-post flex-grow-1 mx-3  shadow bg-white rounded">
+      <img
+         src="https://images.unsplash.com/photo-1578589318514-262b58e01f19?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+         alt="" class="w-100 object-fit-cover mb-3 " height="600px">
+      <div class="tags mb-2">
+         <small class="bg-info">featured</small>
+         <small class="bg-secondary">inspiration</small>
+         <small class="bg-dark">new</small>
+         <small class="bg-success">released on - 25 sep 2024</small>
+      </div>
+
+      <div class="main-content px-2">
+         <h3 class="pb-3 fs-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus tempora non voluptatem rerum amet ducimus
+            quasi, qui exercitationem eius modi.
+         </h3>
+    <div class="fs-4">
+
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet laudantium consequuntur nulla repellendus
+            dolorem doloremque pariatur aliquid, quae delectus laborum ad cumque doloribus nobis minima, voluptate sunt <br> <br>
+            iste. Magni, numquam?
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam cumque quo quam, pariatur accusamus ex?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos alias illo culpa, eligendi nam mollitia totam <br> <br>
+            quidem perferendis possimus rerum in voluptate fugit ratione ut a iste vitae sapiente incidunt et assumenda
+            perspiciatis qui! Quod eligendi illo culpa dicta, repellat aliquam. Magni, temporibus quam. Libero fuga
+            dolorem exercitationem nihil et.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam nulla est cum, suscipit saepe fugiat facilis molestias nihil, pariatur nisi quod blanditiis quas! Vel reiciendis voluptates voluptatibus distinctio accusantium. Minima, soluta officia! Laudantium maxime rerum tempora, vitae vero explicabo eligendi inventore suscipit omnis repudiandae nemo, ducimus temporibus eos odit asperiores enim accusantium, perferendis aperiam fugiat! Debitis id tempore nam, deleniti fuga illum quidem laborum iure? Rem sapiente placeat pariatur dolores temporibus suscipit magni nulla, aperiam ad quibusdam laborum reiciendis sit incidunt quas itaque ullam assumenda dolorum fuga? Adipisci, consequatur id, dolores nisi fuga voluptas itaque corporis accusantium sapiente dignissimos sit?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla voluptatum accusantium repellendus, repellat iure nisi fugit dolore quia, deserunt tempore libero asperiores quidem eius incidunt cumque consequatur magnam quae necessitatibus eaque nostrum earum culpa vero, natus illo? Doloribus, ab, placeat alias beatae totam, quidem adipisci omnis unde ad quos quisquam enim fugit eaque voluptas facilis eum ea officia suscipit! Soluta itaque ipsa eveniet quo quod facilis maxime odio esse, tempora similique officia ipsam nobis vitae pariatur! Fuga magnam esse praesentium nulla ipsam dignissimos iure maiores aliquam non reprehenderit. Dicta voluptatum saepe nihil magni? Accusamus quos amet, aliquid ullam enim fugit.
+    </div>
+      </div>
+   </div>
+   <div class="relevent-posts bg-dark py-3 rounded-start-2 ms-2">
+      <h3 class="text-center text-light">Relavent Posts</h3>
+      <hr class="w-50 mx-auto border-2 border-white my-0">
+      <hr class="w-75 mx-auto border-2 border-white my-1">
+      @for (item of [1,2,3]; track $index) {
+      <app-post-card></app-post-card>
+      }
+   </div>
+</div>

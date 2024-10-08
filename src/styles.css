@@ -22,7 +22,7 @@ h4,h2,h3{
 }
 p{
    text-transform: capitalize;
-   font-size: 1rem;
+   font-size: 1.2rem;
    font-weight: 500;
 }
 }
@@ -33,4 +33,26 @@ p{
    flex-direction: row;
    flex-wrap: wrap;
    padding:  0.5rem  0 2rem;
+}
+
+.tags,
+.relese {
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   flex-wrap: wrap;
+   margin-top: 5px;
+}
+
+small {
+   margin: 0 1rem 0 0;
+   color: #fff;
+   height: 25px;
+   padding: 0 20px;
+   border-radius: 5rem;
+   line-height: 24px;
+   text-transform: capitalize;
+   font-weight: 600;
+   margin-bottom: 8px;
 }
